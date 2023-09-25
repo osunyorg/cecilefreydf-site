@@ -12,4 +12,4 @@ params:
   summary:
     position: hero
   breadcrumb:
-    position: after-hero
+    position: hero-end
