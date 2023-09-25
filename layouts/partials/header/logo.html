@@ -1,0 +1,5 @@
+{{ $file := site.Params.logo.header }}
+{{ $fileDimensions := partial "GetImageDimensions" (dict "context" . "file" $file "static" true) }}
+<a class="logo" href="{{ site.Home.Permalink }}">
+  {{ site.Title }}  
+</a>
