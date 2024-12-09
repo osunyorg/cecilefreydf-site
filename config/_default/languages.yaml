@@ -7,9 +7,14 @@ fr:
   languageCode: fr
   languageName: Français
   params:
-    social:
-      x: >-
-        https://twitter.com/cecilefreydf
+    contact_details:
+      social_networks:
+        x:
+          label: >-
+            cecilefreydf
+          value: >-
+            https://x.com/cecilefreydf
+
   permalinks:
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
